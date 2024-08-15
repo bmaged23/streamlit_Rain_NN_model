@@ -3,6 +3,8 @@ import joblib
 import pandas as pd
 import numpy as np
 #streamlit run streamlit_app.py
+import keras
+print(keras.__version__)
 st.set_page_config(
     page_title="K-means Prediction",
     page_icon=":0"
